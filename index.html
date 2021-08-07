@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Chunk File Upload</title>
+
+    <link type="text/css" href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+
+<form id="upload" encType="multipart/form-data">
+    <input type="file" name="file[]" multiple="true" />
+    <button type="submit">Upload</button>
+</form>
+
+<div id="alert"></div>
+
+<div id="progress-outer">
+    <div id="progress-inner"></div>
+    <div id="progress-text">0%</div>
+</div>
+
+<script src="js/plugin/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
